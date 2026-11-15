@@ -27,7 +27,7 @@ Example: `Trajectory_0001_MMSI_209287000.xlsx`. A vessel may have multiple traje
 |---|---|---|
 | `TrajectoryID` | Trajectory identifier | Integer |
 | `MMSI` | Maritime Mobile Service Identity | Nine-digit integer |
-| `BaseDateTime` | Compressed UTC timestamp as text | `yyyy-MM-dd HH:mm:ss.SSSSSS` |
+| `BaseDateTime` | UTC timestamp as text | `yyyy-MM-dd HH:mm:ss.SSSSSS` |
 | `LAT` | Latitude | Degrees |
 | `LON` | Longitude | Degrees |
 | `SOG` | Original speed over ground, unchanged by time compression | Knots |
